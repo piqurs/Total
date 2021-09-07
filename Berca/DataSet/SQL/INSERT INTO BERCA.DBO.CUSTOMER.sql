@@ -1,0 +1,4 @@
+INSERT INTO BERCA.DBO.CUSTOMER 
+(CUSTOMERID, CUSTOMERNAME, TOPDAYS)
+VALUES
+(@customerid, @customername, @topdays)

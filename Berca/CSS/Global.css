@@ -1,0 +1,2659 @@
+﻿
+/* ================================================================================== *
+ *  MASTER                                                                            *
+ * ================================================================================== */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+p {
+    margin: 0px;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.javascript_required_title {
+    margin: 20px;
+    font-family: Tahoma, Arial;
+    font-size: 24px;
+}
+
+div.javascript_required_text {
+    margin: 20px;
+    width: 800px;
+    font-family: Tahoma,Arial;
+    font-size: 14px;
+}
+
+/* ================================================================================== *
+ *  LAYOUT NORMAL (lay_)                                                              *
+ * ================================================================================== */
+
+div.lay_container {
+    position: relative;
+    margin: 0 auto;
+    width: 1011px;
+}
+
+div.lay_container_fluid {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.lay_logo {
+    width: 700px;
+    height: 63px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-repeat: no-repeat;
+}
+
+div.lay_logininfo_bg {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    z-index: 19;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+div.lay_logininfo {
+    height: 54px;
+    position: absolute;
+    top: 17px;
+    right: 23px;
+    z-index: 20;
+}
+
+div.lay_logininfo_container {
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+div.lay_logininfo_name {
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+div.lay_logininfo_role {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+div.lay_logininfo_separator {
+    clear: both;
+    margin-bottom: 2px;
+}
+
+div.lay_logininfo_menucontainer {
+    float: right;
+    margin-right: 5px;
+}
+
+div.lay_logininfo_menu {
+    float: left;
+    font-family: Arial;
+    font-size: 10.5px;
+}
+
+div.lay_logininfo_menu_last {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+div.lay_logininfo_menu_rest {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.lay_logininfo_menu_separator {
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.lay_logininfo_menu a {
+    text-decoration: none;
+}
+
+    div.lay_logininfo_menu a:hover {
+        text-decoration: none;
+    }
+
+div.lay_main {
+    width: 100%;
+    position: absolute;
+    top: 58px;
+}
+
+div.lay_main_fluid {
+    position: absolute;
+    top: 58px;
+}
+
+div.lay_top_shadow {
+    height: 15px;
+    width: 100%;
+    position: relative;
+}
+
+div.lay_top_shadow_left {
+    width: 506px;
+    height: 15px;
+    position: absolute;
+    left: 0px;
+}
+
+div.lay_top_shadow_right {
+    width: 505px;
+    height: 15px;
+    position: absolute;
+    right: 0px;
+}
+
+div.lay_top_shadow_middle {
+    height: 15px;
+    position: absolute;
+    left: 506px;
+    right: 505px;
+}
+
+div.lay_bottom_shadow {
+    height: 74px; /* 44px */
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+div.lay_bottom_shadow_left {
+    width: 506px;
+    height: 44px;
+    position: absolute;
+    left: 0px;
+}
+
+div.lay_bottom_shadow_right {
+    width: 505px;
+    height: 44px;
+    position: absolute;
+    right: 0px;
+}
+
+div.lay_bottom_shadow_middle {
+    height: 44px;
+    position: absolute;
+    left: 506px;
+    right: 505px;
+}
+
+div.lay_side_shadow_left {
+    width: 15px;
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    bottom: 74px; /* 44px */
+}
+
+div.lay_side_shadow_right {
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    bottom: 74px; /* 44px */
+}
+
+div.lay_head_top_border {
+    margin-bottom: 0px;
+    height: 1px;
+    position: relative;
+}
+
+div.lay_head_top_border_left {
+    width: 355px;
+    height: 1px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div.lay_head_top_border_right {
+    width: 355px;
+    height: 1px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+div.lay_head_top_border_middle {
+    height: 1px;
+    position: absolute;
+    left: 355px;
+    right: 355px;
+    top: 0px;
+}
+
+div.lay_bg_head_left {
+    width: 100%;
+    background-position: left top;
+}
+
+div.lay_bg_head_right {
+    width: 100%;
+    background-position: right top;
+}
+
+div.lay_head_blur_effect_aero {
+    height: 80px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+}
+
+div.lay_head_custom {
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+div.lay_head_custom_left {
+    position: absolute;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+}
+
+div.lay_head_custom_middle {
+    position: absolute;
+    height: 80px;
+}
+
+div.lay_head_custom_middle_alt {
+    position: absolute;
+    height: 80px;
+}
+
+div.lay_head_custom_right {
+    position: absolute;
+    height: 80px;
+    top: 0px;
+    right: 0px;
+}
+
+div.lay_head_custom_right_alt {
+    position: absolute;
+    height: 80px;
+    top: 0px;
+    right: 0px;
+}
+
+div.lay_main_content {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+div.lay_head {
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+div.lay_head_separator {
+    position: absolute;
+    height: 2px;
+    left: 20px;
+    right: 20px;
+    bottom: 0px;
+}
+
+div.lay_head_title {
+    width: 900px;
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    font-family: 'Trebuchet MS', Tahoma, Arial;
+}
+
+div.lay_head_subtitle {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-family: 'Trebuchet MS', Tahoma, Arial;
+}
+
+div.lay_head_back_area {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+div.lay_head_title_area {
+    float: left;
+    position: relative;
+}
+
+div.lay_head_clear_area {
+    clear: left;
+}
+
+div.lay_top_navigation {
+    height: 41px;
+    width: 981px;
+    position: relative;
+}
+
+div.lay_top_navigation_start {
+    float: left;
+    width: 10px;
+    height: 1px;
+}
+
+div.lay_top_navigation_menugroup {
+    height: 41px;
+    float: left;
+    cursor: default;
+    position: relative;
+}
+
+div.lay_top_navigation_menugroup_default {
+    height: 41px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1002;
+}
+
+div.lay_top_navigation_menugroup_default_left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_default_middlecontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.lay_top_navigation_menugroup_default_middle {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    height: 41px;
+    line-height: 41px;
+}
+
+div.lay_top_navigation_menugroup_default_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_offover {
+    height: 41px;
+    position: relative;
+    top: -41px;
+    left: 0px;
+    z-index: 1003;
+}
+
+div.lay_top_navigation_menugroup_offover_left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_offover_middlecontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.lay_top_navigation_menugroup_offover_middle {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    height: 41px;
+    line-height: 41px;
+}
+
+div.lay_top_navigation_menugroup_offover_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_on {
+    height: 41px;
+    position: relative;
+    top: -41px;
+    left: 0px;
+    z-index: 1004;
+}
+
+div.lay_top_navigation_menugroup_on_left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_on_middlecontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.lay_top_navigation_menugroup_on_middle {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    height: 41px;
+    line-height: 41px;
+}
+
+div.lay_top_navigation_menugroup_on_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_onover {
+    height: 41px;
+    position: relative;
+    top: -82px;
+    left: 0px;
+    z-index: 1005;
+}
+
+div.lay_top_navigation_menugroup_onover_left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_onover_middlecontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.lay_top_navigation_menugroup_onover_middle {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    height: 41px;
+    line-height: 41px;
+}
+
+div.lay_top_navigation_menugroup_onover_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_menu {
+    height: 41px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1007;
+}
+
+div.lay_top_navigation_menugroup_menu_left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_menu_left_sq {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_menu_middlecontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.lay_top_navigation_menugroup_menu_middle {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    height: 41px;
+    line-height: 41px;
+}
+
+div.lay_top_navigation_menugroup_menu_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+div.lay_top_navigation_menugroup_menu_right_sq {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 41px;
+    width: 20px;
+}
+
+
+div.lay_top_navigation_menugroup_themenu {
+    position: absolute;
+    top: 33px;
+    left: 1px;
+    z-index: 1006;
+}
+
+div.lay_top_navigation_menugroup_themenu_topleft {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    left: 0px;
+}
+
+div.lay_top_navigation_menugroup_themenu_topleft_sq {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    left: 0px;
+}
+
+div.lay_top_navigation_menugroup_themenu_topmiddle {
+    position: absolute;
+    height: 20px;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+}
+
+div.lay_top_navigation_menugroup_themenu_topright {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    right: 0px;
+}
+
+div.lay_top_navigation_menugroup_themenu_topright_sq {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    right: 0px;
+}
+
+div.lay_top_navigation_menugroup_themenu_middleleft {
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    left: 0px;
+    bottom: 20px;
+}
+
+div.lay_top_navigation_menugroup_themenu_middlecontainer {
+    padding: 20px;
+}
+
+div.lay_top_navigation_menugroup_themenu_middle {
+    position: relative;
+}
+
+div.lay_top_navigation_menugroup_themenu_middleright {
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    right: 0px;
+    bottom: 20px;
+}
+
+div.lay_top_navigation_menugroup_themenu_bottomleft {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    bottom: 0px;
+}
+
+div.lay_top_navigation_menugroup_themenu_bottommiddle {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 0px;
+}
+
+div.lay_top_navigation_menugroup_themenu_bottomright {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 0px;
+    bottom: 0px;
+}
+
+div.lay_top_navigation_menugroup_themenu_column {
+    display: block;
+    float: left;
+    width: 165px;
+}
+
+div.lay_top_navigation_menugroup_themenu_columnend {
+    clear: left;
+}
+
+ul.lay_top_navigation_menugroup_themenu_rows {
+    font-family: Arial;
+    font-size: 10px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    ul.lay_top_navigation_menugroup_themenu_rows li {
+        height: 16px;
+        display: list-item;
+        padding-top: 2px;
+    }
+
+        ul.lay_top_navigation_menugroup_themenu_rows li a {
+            text-decoration: none;
+            width: 164px;
+            display: block;
+        }
+
+div.lay_top_navigation_endgroup {
+    clear: left;
+}
+
+div.lay_content {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+div.lay_content_holder {
+    width: 940px;
+    height: 1px;
+}
+
+div.lay_foot {
+    height: 80px;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 74px; /* 44px */
+}
+
+div.lay_foot_custom {
+    height: 80px;
+    position: absolute;
+    width: 100%;
+}
+
+div.lay_foot_custom_left {
+    position: absolute;
+    height: 80px;
+    bottom: 0px;
+    left: 0px;
+}
+
+div.lay_foot_custom_middle {
+    position: absolute;
+    height: 80px;
+}
+
+div.lay_foot_custom_right {
+    position: absolute;
+    height: 80px;
+    bottom: 0px;
+    right: 0px;
+}
+
+div.lay_foot_logo {
+    width: 109px;
+    height: 19px;
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+}
+
+div.lay_foot_column {
+    width: 150px;
+    height: 28px;
+    position: absolute;
+    top: 26px;
+    display: block;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+    div.lay_foot_column span.foot_col_head {
+        font-weight: bold;
+    }
+
+div.lay_foot_copyright {
+    width: 500px;
+    height: 28px;
+    position: absolute;
+    top: 26px;
+    display: block;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+    div.lay_foot_copyright p {
+        line-height: 15px;
+    }
+
+
+div.lay_foot_links_top {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 10px;
+}
+
+div.lay_foot_links {
+    margin-bottom: 154px; /* 124 */
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+div.lay_foot_links_bottom_border {
+    position: absolute;
+    bottom: 0px;
+    height: 1px;
+    width: 100%;
+}
+
+div.lay_foot_links_bottom_border_left {
+    position: absolute;
+    height: 1px;
+    left: 0px;
+}
+
+div.lay_foot_links_bottom_border_right {
+    position: absolute;
+    height: 1px;
+    right: 0px;
+}
+
+div.lay_foot_links_bottom_border_middle {
+    position: absolute;
+    height: 1px;
+}
+
+div.lay_foot_links_area_container {
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+div.lay_foot_links_area {
+    position: relative;
+    left: 0px;
+}
+
+div.lay_foot_links_bottom_column {
+    position: absolute;
+    display: block;
+    width: 165px;
+    top: 5px;
+}
+
+div.lay_foot_links_bottom_group_head {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    height: 18px;
+    margin-top: 8px;
+}
+
+ul.lay_foot_links_bottom_group_rows {
+    font-family: Arial;
+    font-size: 10px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    ul.lay_foot_links_bottom_group_rows li {
+        height: 16px;
+        display: list-item;
+        padding-top: 2px;
+    }
+
+        ul.lay_foot_links_bottom_group_rows li a {
+            text-decoration: none;
+            width: 165px;
+            display: block;
+        }
+
+div.lay_navigation_more {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 50px;
+    height: 18px;
+}
+
+div.lay_navigation_more_section {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+}
+
+div.lay_navigation_more_section_image {
+    position: absolute;
+    width: 5px;
+    height: 12px;
+    top: 2px;
+}
+
+div.lay_foot_links_group_detail_container {
+    position: absolute;
+    overflow: hidden;
+    width: 167px;
+    display: none;
+    left: -1px;
+    padding-left: 1px;
+}
+
+div.lay_foot_links_nextprev {
+    height: 19px;
+    width: 172px;
+    position: absolute;
+    display: none;
+}
+
+/* ================================================================================== *
+ *  PRESENCE BAR (lay_bar_)                                                           *
+ * ================================================================================== */
+
+div.lay_bar {
+    position: fixed;
+    z-index: 10000;
+    bottom: 0px;
+    left: 20px;
+    right: 20px;
+    height: 33px;
+}
+
+div.lay_bar_left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 37px;
+    width: 10px;
+}
+
+div.lay_bar_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 37px;
+    width: 10px;
+}
+
+div.lay_bar_middle {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    height: 37px;
+}
+
+div.lay_bar_button {
+    float: right;
+    height: 37px;
+    position: relative;
+    cursor: default;
+}
+
+div.lay_bar_button_separator {
+    float: right;
+    width: 2px;
+    height: 37px;
+    background-repeat: no-repeat;
+}
+
+div.lay_bar_button_content {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 37px;
+    position: relative;
+    z-index: 500;
+}
+
+div.lay_bar_button_content_icon {
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background-repeat: no-repeat;
+}
+
+div.lay_bar_button_content_text {
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 37px;
+    color: inherit;
+}
+
+div.lay_bar_button_content_text_iconed {
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 37px;
+    padding-left: 22px;
+    color: inherit;
+}
+
+div.lay_bar_button_content_waiting {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 37px;
+    line-height: 37px;
+    position: relative;
+    z-index: 500;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+div.lay_bar_button_hover {
+    position: absolute;
+    z-index: 490;
+    top: -5px;
+    left: -9px;
+    right: -9px;
+    height: 39px;
+    display: none;
+}
+
+div.lay_bar_button_hover_left {
+    position: absolute;
+    width: 16px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+div.lay_bar_button_hover_right {
+    position: absolute;
+    width: 16px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+div.lay_bar_button_hover_middle {
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    right: 16px;
+    bottom: 0px;
+}
+
+div.lay_bar_button_waiting {
+    position: absolute;
+    z-index: 480;
+    top: -5px;
+    left: -9px;
+    right: -9px;
+    height: 39px;
+    display: none;
+}
+
+div.lay_bar_button_waiting_left {
+    position: absolute;
+    width: 16px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+div.lay_bar_button_waiting_right {
+    position: absolute;
+    width: 16px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+div.lay_bar_button_waiting_middle {
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    right: 16px;
+    bottom: 0px;
+}
+
+div.lay_bar_window {
+    position: absolute;
+    bottom: 0px;
+    z-index: 495;
+}
+
+div.lay_bar_window_topleft {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 0px;
+    left: 0px;
+}
+
+div.lay_bar_window_topright {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 0px;
+    right: 0px;
+}
+
+div.lay_bar_window_top {
+    position: absolute;
+    height: 17px;
+    top: 0px;
+    left: 18px;
+    right: 18px;
+}
+
+div.lay_bar_window_bottomleft {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    bottom: 23px;
+    left: 0px;
+}
+
+div.lay_bar_window_bottomright {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    bottom: 23px;
+    right: 1px;
+}
+
+div.lay_bar_window_bottom {
+    position: absolute;
+    height: 17px;
+    bottom: 23px;
+}
+
+div.lay_bar_window_left {
+    position: absolute;
+    width: 18px;
+    top: 17px;
+    bottom: 40px;
+    left: 0px;
+}
+
+div.lay_bar_window_right {
+    position: absolute;
+    width: 18px;
+    top: 17px;
+    bottom: 40px;
+    right: 0px;
+}
+
+div.lay_bar_window_middle {
+    position: absolute;
+    top: 17px;
+    bottom: 40px;
+    left: 18px;
+    right: 18px;
+}
+
+div.lay_bar_window_handle_left {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 14px;
+}
+
+div.lay_bar_window_handle_right {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 14px;
+}
+
+div.lay_bar_window_handle_middle {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+}
+
+div.lay_bar_window_corner_right {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 8px;
+    right: 0px;
+}
+
+
+
+/* ================================================================================== *
+ *  SCREENSAVER (lay_screensaver_)                                                    *
+ * ================================================================================== */
+
+div.lay_screensaver {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 20000;
+}
+
+/* ================================================================================== *
+ *  DEVELOPMENT MODE (lay_devmode_)                                                    *
+ * ================================================================================== */
+
+div.lay_devmode {
+    width: 164px;
+    height: 46px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10000;
+}
+
+/* ================================================================================== *
+ *  TOOLTIP (lay_tooltip_)                                                            *
+ * ================================================================================== */
+
+div.lay_tooltip {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 20000;
+    padding: 12px;
+    display: none;
+}
+
+div.lay_tooltip_content {
+    position: relative;
+    z-index: 1;
+    font-family: Tahoma, Arial;
+    font-size: 11px;
+}
+
+div.lay_tooltip_topleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+div.lay_tooltip_topright {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+div.lay_tooltip_top {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    right: 12px;
+    height: 12px;
+}
+
+div.lay_tooltip_bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+div.lay_tooltip_bottomright {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+div.lay_tooltip_bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+    right: 12px;
+    height: 12px;
+}
+
+div.lay_tooltip_left {
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    bottom: 12px;
+    width: 12px;
+}
+
+div.lay_tooltip_right {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    bottom: 12px;
+    width: 12px;
+}
+
+div.lay_tooltip_middle {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+}
+
+/* ================================================================================== *
+ *  LOGININFO_CONFIG (lay_logininfo_config_)                                          *
+ * ================================================================================== */
+
+div.lay_logininfo_config {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    z-index: 10500;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+div.lay_logininfo_config_content {
+    position: relative;
+    z-index: 1;
+    font-family: Tahoma, Arial;
+    font-size: 11px;
+}
+
+div.lay_logininfo_config_topleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 48px;
+}
+
+div.lay_logininfo_config_topright {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 18px;
+    height: 48px;
+}
+
+div.lay_logininfo_config_top {
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    right: 18px;
+    height: 48px;
+}
+
+div.lay_logininfo_config_bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+}
+
+div.lay_logininfo_config_bottomright {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 18px;
+    height: 18px;
+}
+
+div.lay_logininfo_config_bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 18px;
+    right: 18px;
+    height: 18px;
+}
+
+div.lay_logininfo_config_left {
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    bottom: 18px;
+    width: 18px;
+}
+
+div.lay_logininfo_config_right {
+    position: absolute;
+    right: 0px;
+    top: 48px;
+    bottom: 18px;
+    width: 18px;
+}
+
+div.lay_logininfo_config_middle {
+    position: absolute;
+    top: 48px;
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+}
+
+div.lay_logininfo_config_name {
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: right;
+}
+
+/* ================================================================================== *
+ *  POPUP (lay_popup_)                                                                *
+ * ================================================================================== */
+
+a.lay_popup_note_toggle {
+    font-size: 11px;
+}
+
+span.lay_popup_note {
+    font-size: 11px;
+    font-family: 'Courier New';
+}
+
+div.lay_popup {
+    position: relative;
+    top: -18px;
+    left: 15px;
+}
+
+div.lay_popup_header {
+    z-index: 1;
+}
+
+div.lay_popup_header {
+    font-family: 'Trebuchet MS', Tahoma, Arial;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+div.lay_popup_content {
+    position: relative;
+    z-index: 1;
+}
+
+/* ================================================================================== *
+ *  INIT (lay_init_)                                                                  *
+ * ================================================================================== */
+
+div.lay_init_progress {
+    position: relative;
+    height: 23px;
+    width: 950px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+
+div.lay_init_progress_fill {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 23px;
+}
+
+div.lay_init_progress_text_shadow {
+    position: relative;
+    z-index: 1;
+    height: 23px;
+    width: 46px;
+    margin: 0px auto;
+}
+
+div.lay_init_progress_text {
+    position: relative;
+    z-index: 2;
+    top: -23px;
+    height: 23px;
+    line-height: 23px;
+    width: 100%;
+    text-align: center;
+}
+
+div.lay_init_loadingtext {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Tahoma;
+}
+
+/* ================================================================================== *
+ *  LAYOUT EXTRA (layext_)                                                            *
+ * ================================================================================== */
+
+div.layext_container {
+    position: relative;
+    width: 1011px;
+    margin: 0 auto;
+}
+
+div.layext_content {
+    font-size: 13px;
+    font-family: Tahoma, Arial;
+    margin-top: 15px;
+}
+
+div.layext_foot {
+    height: 130px;
+    position: absolute;
+    left: 65px;
+    right: 65px;
+    top: 470px;
+}
+
+div.layext_foot_logo, a.layext_foot_logo {
+    width: 109px;
+    height: 19px;
+    position: absolute;
+    right: 25px;
+    bottom: 80px;
+}
+
+div.layext_foot_column {
+    width: 150px;
+    height: 28px;
+    position: absolute;
+    top: 26px;
+    display: block;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+    div.layext_foot_column span.foot_col_head {
+        font-weight: bold;
+    }
+
+div.layext_foot_copyright {
+    width: 500px;
+    height: 28px;
+    position: absolute;
+    top: 26px;
+    display: block;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+    div.layext_foot_copyright p {
+        line-height: 15px;
+    }
+
+div.layext_foot_top_border {
+    position: absolute;
+    top: 0px;
+    height: 1px;
+    width: 100%;
+}
+
+div.layext_foot_top_border_left {
+    position: absolute;
+    height: 1px;
+    left: 0px;
+    width: 355px;
+}
+
+div.layext_foot_top_border_right {
+    position: absolute;
+    height: 1px;
+    right: 0px;
+    width: 355px;
+}
+
+div.layext_foot_top_border_middle {
+    position: absolute;
+    height: 1px;
+    left: 355px;
+    right: 355px;
+}
+
+
+/* ================================================================================== *
+ *  PAGE COMPONENT                                                                    *
+ * ================================================================================== */
+
+div.row {
+    display: block;
+    font-family: Tahoma, Arial;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 1047px;
+    text-align: center;
+}
+
+div.row_klaim {
+    display: block;
+    font-family: Tahoma, Arial;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 420px;
+}
+
+div.row_font_inherit {
+    display: block;
+    font: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.row_note {
+    display: block;
+    font-family: Tahoma, Arial;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.first {
+    margin-top: 0px;
+}
+
+div.last {
+    margin-bottom: 1px;
+}
+
+div.name {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+div.name2 {
+    float: left;
+    width: 127px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+div.name3 {
+    float: left;
+    width: 260px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+div.name4 {
+    float: left;
+    width: 260px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+div.value_composite {
+    float: left;
+    position: relative;
+    width: 1px;
+    height: 1px;
+}
+
+    div.value_composite div.value {
+        position: absolute;
+        float: none;
+        padding-right: 0px;
+    }
+
+div.value {
+    float: left;
+    padding-right: 5px;
+}
+
+div.value_right {
+    float: right;
+    padding-left: 5px;
+}
+
+div.value_single {
+    float: left;
+}
+
+div.label {
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+div.end {
+    clear: both;
+}
+
+div.spacer {
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.center {
+    margin: 0px auto;
+}
+
+.face1 {
+    font-family: Arial;
+}
+
+.size1 {
+    font-size: 10.5px;
+}
+
+.size2 {
+    font-size: 12px;
+}
+
+.size3 {
+    font-size: 14px;
+}
+
+.size4 {
+    font-size: 18px;
+}
+
+.size5 {
+    font-size: 20px;
+}
+
+.size6 {
+    font-size: 24px;
+}
+
+.size7 {
+    font-size: 32px;
+}
+
+.head1 {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.color1 {
+}
+
+.color2 {
+}
+
+.color3 {
+}
+
+.color4 {
+}
+
+.colortitle {
+}
+
+.colorlight {
+}
+
+.colordark {
+}
+
+/* dx themed */
+
+div.dx_box {
+    position: relative;
+}
+
+div.dx_selectarea {
+    overflow: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+div.dx_pagingarea {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+div.dx_entry_odd {
+    overflow: hidden;
+    position: relative;
+}
+
+div.dx_entry_even {
+    overflow: hidden;
+    position: relative;
+}
+
+div.dx_entry_odd_tools {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+div.dx_entry_odd_tools_closer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 31px;
+}
+
+div.dx_entry_odd_tools_area {
+    position: absolute;
+    top: 0px;
+    left: 31px;
+    bottom: 0px;
+    right: 0px;
+}
+
+div.dx_entry_even_tools {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+div.dx_entry_even_tools_closer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 31px;
+}
+
+div.dx_entry_even_tools_area {
+    position: absolute;
+    top: 0px;
+    left: 31px;
+    bottom: 0px;
+    right: 0px;
+}
+
+div.dx_entry_text {
+    white-space: nowrap;
+    font-family: Tahoma;
+    position: absolute;
+    font-size: 11px;
+}
+
+span.dx_text_current {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+span.dx_text_ext {
+}
+
+span.dx_text_highlight {
+}
+
+
+
+
+/*
+ * CONTROLS.DESIGN (prefix de_)
+ * TODO: MOVE TO INDIVIDUAL CSS
+ */
+div.de_button_big_container {
+    height: 65px;
+    position: relative;
+    display: block;
+}
+
+    div.de_button_big_container a {
+        font-family: Arial;
+        font-size: 17px;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 65px;
+        height: 65px;
+        position: relative;
+        z-index: 10;
+        display: block;
+        text-align: center;
+        color: inherit;
+    }
+
+div.de_button_big_bg {
+    position: absolute;
+    right: 30px;
+    left: 0px;
+    height: 65px;
+    top: 0px;
+    z-index: 9;
+    background-color: #cecece;
+}
+
+div.de_button_big_right {
+    position: absolute;
+    width: 30px;
+    height: 65px;
+    top: 0px;
+    right: 0px;
+    z-index: 9;
+    background-color: #cecece;
+}
+
+div.de_button_square_big_container {
+    width: 164px;
+    height: 54px;
+    position: relative;
+    display: block;
+}
+
+    div.de_button_square_big_container a {
+        font-family: Tahoma, Arial;
+        font-size: 11px;
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 40px;
+        position: absolute;
+        width: 140px;
+        height: 40px;
+        top: 5px;
+        left: 6px;
+        z-index: 10;
+        display: block;
+        text-align: left;
+        padding-left: 10px;
+        color: inherit;
+    }
+
+div.de_button_square_big_bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9;
+    background-color: #cecece;
+}
+
+div.de_button_glass_container {
+    height: 27px;
+    position: relative;
+    display: block;
+}
+
+    div.de_button_glass_container a {
+        font-family: Arial;
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 27px;
+        height: 27px;
+        position: relative;
+        z-index: 10;
+        display: block;
+        color: inherit;
+        text-align: center;
+    }
+
+div.de_button_glass_left {
+    position: absolute;
+    width: 60px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_glass_middle {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    right: 30px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_glass_right {
+    position: absolute;
+    width: 60px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_medium_container {
+    height: 50px;
+    position: relative;
+    display: block;
+}
+
+    div.de_button_medium_container a, div.de_button_medium_container span {
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 50px;
+        height: 50px;
+        position: relative;
+        z-index: 10;
+        display: block;
+        color: inherit;
+        text-align: center;
+    }
+
+div.de_button_medium_left {
+    position: absolute;
+    width: 48px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_medium_middle {
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    right: 48px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_medium_right {
+    position: absolute;
+    width: 48px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_big_glass_container {
+    height: 47px;
+    position: relative;
+    display: block;
+}
+
+    div.de_button_big_glass_container a {
+        font-family: Arial;
+        font-size: 11px;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 47px;
+        height: 47px;
+        position: relative;
+        z-index: 10;
+        display: block;
+        text-align: center;
+        color: inherit;
+    }
+
+div.de_button_big_glass_left {
+    position: absolute;
+    width: 58px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_big_glass_leftalt {
+    position: absolute;
+    width: 58px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_big_glass_middle {
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    right: 58px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+div.de_button_big_glass_right {
+    position: absolute;
+    width: 58px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+
+
+
+
+
+
+
+div.de_portrait_big_container {
+    width: 114px;
+    height: 113px;
+    position: relative;
+}
+
+div.de_portrait_big_glass {
+    width: 114px;
+    height: 113px;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div.de_portrait_big_photo {
+    width: 94px;
+    height: 94px;
+    z-index: 9;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+div.de_portrait_big_default {
+}
+
+div.de_portrait_medium_glass {
+    width: 80px;
+    height: 79px;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div.de_portrait_medium_photo {
+    width: 66px;
+    height: 66px;
+    z-index: 9;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+div.de_portrait_medium_default {
+}
+
+div.de_login_portrait_left_grad {
+    width: 160px;
+    height: 79px;
+    position: absolute;
+    z-index: 11;
+}
+
+div.de_login_portrait_right_grad {
+    width: 160px;
+    height: 79px;
+    position: absolute;
+    z-index: 11;
+}
+
+div.de_horizon_container {
+    position: absolute;
+    width: 980px;
+    left: 1px;
+    height: 134px;
+    z-index: 1;
+}
+
+div.de_login_box {
+    width: 186px;
+    height: 31px;
+}
+
+    div.de_login_box input {
+        width: 174px;
+        height: 20px;
+        line-height: normal;
+        font-family: Arial;
+        font-size: 14px;
+        letter-spacing: 0px;
+        padding: 3px 2px 0px 2px;
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+
+div.de_login_box_fieldname {
+    font-family: Tahoma, Arial;
+    font-style: italic;
+    font-size: 11px;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+}
+
+div.de_login_orb_container {
+    width: 47px;
+    height: 52px;
+}
+
+    div.de_login_orb_container a {
+        width: 47px;
+        height: 52px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 11;
+    }
+
+div.de_login_orb_normal {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 47px;
+    height: 49px;
+    background-position: 0px 6px;
+    z-index: 9;
+}
+
+div.de_login_orb_glowing {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 47px;
+    height: 49px;
+    background-position: 0px -44px;
+    display: none;
+    z-index: 10;
+}
+
+div.de_login_notify_container {
+    position: relative;
+    z-index: 20;
+}
+
+div.de_login_notify_top_left {
+    width: 20px;
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 19;
+}
+
+div.de_login_notify_top_middle {
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    right: 16px;
+    z-index: 19;
+}
+
+div.de_login_notify_top_right {
+    width: 16px;
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 19;
+}
+
+div.de_login_notify_bot_left {
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 19;
+}
+
+div.de_login_notify_bot_middle {
+    height: 19px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    right: 16px;
+    z-index: 19;
+}
+
+div.de_login_notify_bot_right {
+    width: 16px;
+    height: 19px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 19;
+}
+
+div.de_login_notify_mid_left {
+    width: 20px;
+    position: absolute;
+    top: 29px;
+    bottom: 19px;
+    left: 0px;
+    z-index: 19;
+}
+
+div.de_login_notify_mid_middle {
+    background-color: #a3001d;
+    position: absolute;
+    top: 29px;
+    bottom: 19px;
+    left: 20px;
+    right: 16px;
+    z-index: 19;
+}
+
+div.de_login_notify_mid_right {
+    width: 16px;
+    position: absolute;
+    top: 29px;
+    bottom: 19px;
+    right: 0px;
+    z-index: 19;
+}
+
+div.de_login_notify_text {
+    font-family: Tahoma, Arial;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    z-index: 20;
+    line-height: 15px;
+}
+
+div.de_login_scroll_right {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 60px;
+    cursor: pointer;
+}
+
+div.de_login_scroll_left {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 60px;
+    cursor: pointer;
+}
+/* placeholder */
+div.de_login_scroll_glow {
+}
+
+div.de_human_verification_container {
+    height: 79px;
+    width: 303px;
+    padding: 10px;
+}
+
+img.de_human_verification_image {
+    height: 77px;
+    width: 300px;
+}
+
+/*
+ * GLOBAL CSS (prefix go_)
+ */
+
+/*
+ * MISC
+ */
+
+
+
+/*
+ * COMPONENT
+ */
+div.go_pagebox {
+    width: 940px;
+    z-index: 5;
+    position: relative;
+}
+
+div.go_name_label_big {
+    font-family: 'Trebuchet MS', Tahoma, Arial;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+    font-weight: bold;
+}
+
+/* profile */
+div.go_dashboard_headline {
+    font-family: Tahoma, Arial;
+    font-size: 20px;
+}
+
+div.go_dashboard_headseparator {
+    height: 2px;
+}
+
+div.go_time {
+    font-size: 10.5px;
+    position: relative;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: default;
+}
+
+div.go_time_selector_active {
+    font-size: 10.5px;
+    position: relative;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: default;
+}
+
+div.go_timezone_selector {
+    font-size: 10.5px;
+    position: relative;
+    right: 2px;
+    left: 1px;
+    top: 1px;
+}
+
+div.go_time_selector_item {
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: default;
+}
+
+/* row a */
+div.go_row_a {
+    font-family: Arial;
+    font-size: 12px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+div.go_row_separator {
+    height: 60px;
+    padding-top: 25px;
+    margin-top: 20px;
+}
+
+div.go_row_a div.box {
+}
+
+div.go_row_a div.block, div.box div.block {
+    float: left;
+    padding-right: 5px;
+}
+
+div.go_row_a div.block_end, div.box div.block_end {
+    clear: both;
+}
+
+/* fly */
+div.go_fly {
+    position: absolute;
+    z-index: 15;
+}
+
+div.go_fly_box_right {
+    float: right;
+}
+
+/* section head */
+div.go_section_head {
+    position: relative;
+    display: block;
+    border-bottom: 2px solid;
+}
+
+div.go_section_head_extra_area {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+div.go_section_head_spacing {
+    margin-top: 15px;
+    display: block;
+    border-bottom: 2px solid;
+}
+
+div.go_section_head_title {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+div.go_section_head_detail {
+    font-family: Arial;
+    font-size: 11px;
+    height: 17px;
+    line-height: 17px;
+    padding-bottom: 10px;
+}
+
+/* text combo box */
+
+div.go_textcombobox_container {
+    width: 100%;
+    overflow: auto;
+}
+
+div.go_textcombobox_row {
+    border-bottom: 1px solid;
+    height: 35px;
+    position: relative;
+}
+
+div.go_textcombobox_row_select {
+    border-bottom: 1px solid;
+    height: 35px;
+    position: relative;
+}
+
+div.go_textcombobox_row_information {
+    height: 25px;
+    position: relative;
+}
+
+div.go_textcombobox_name {
+    font-family: Arial;
+    font-size: 11px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+div.go_textcombobox_info {
+    font-family: Arial;
+    font-size: 11px;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+
+div.go_textcombobox_infoarea {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+div.go_textcombobox_infoimage {
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+
+span.go_textcombobox_highlight {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+div.go_textcombobox_information {
+    font-family: Arial;
+    font-size: 11px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+/* go_quicksearch_css */
+
+table.go_quicksearch_css td.dxic {
+    background-color: transparent;
+}
+
+/* go_cache obsolete notification */
+div.go_con_img {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-left: 5px;
+}
+
+div.go_con_text {
+    float: left;
+    margin-left: 20px;
+}
+
+
+div.tetris_c {
+    background-color: #aeaeae;
+    border: 2px solid #555555;
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    z-index: 3000;
+}
+
+div.tetris_p {
+    background-color: #cecece;
+    border: 2px solid #555555;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+div.tetris_b {
+    border: 1px solid #cecece;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+}
+
+div.tetris_s {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-family: Arial;
+    font-size: 18px;
+    color: #999999;
+}
+
+span.tetris_sh {
+    font-size: 18px;
+    color: #000000;
+}
+
+div.tetris_y {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: #440000;
+    display: none;
+}
+
+div.tetris_l {
+    position: absolute;
+    top: 35px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #555555;
+}

@@ -1,0 +1,4 @@
+INSERT INTO BERCA.DBO.CURRENCY 
+(CURRENCY, EFF_DATE, RATE)
+VALUES
+(@currency, @eff_date, @rate)
